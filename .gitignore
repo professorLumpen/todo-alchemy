@@ -1,0 +1,17 @@
+venv/
+.env
+.envrc
+.venv/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+*.log
+*.sqlite3
+
+.idea/
+*.iml
+
+.pytest_cache/
