@@ -1,9 +1,9 @@
 from app.api.schemas.todo import ToDoCreate, ToDoFromDB
-from app.utils.unitofwork import UnitOfWork
+from app.utils.unitofwork import IUnitOfWork
 
 
 class ToDoService:
-    def __init__(self, uow: UnitOfWork):
+    def __init__(self, uow: IUnitOfWork):
         self.uow = uow
 
     async def get_todos(self) -> list[ToDoFromDB]:
