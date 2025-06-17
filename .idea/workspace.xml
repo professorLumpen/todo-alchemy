@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dba07f7-5dcf-43b3-95c0-9debdb560ee6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/repositories/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/repositories/todo_repository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/repositories/base_repository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/todo_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/unitofwork.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/api/endpoints/todo.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/endpoints/todo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/schemas/todo.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/schemas/todo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/repositories/todo_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/repositories/todo_repository.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1750017697611</updated>
-      <workItem from="1750017698800" duration="17614000" />
+      <workItem from="1750017698800" duration="22045000" />
     </task>
     <servers />
   </component>
